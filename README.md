@@ -6,9 +6,9 @@ The unprecedented rise of social media platforms has revolutionized the way we c
 ## Data Understanding
 The dataset consisted of approximately 20k unique videos and 12 features. Each video is labeled either as "claim" or "opinion". The bar chart below shows the breakdown of how many video labeled as "claim" or "opinion"
 
-[](./img/claim.png)
+![](./img/claim.png)
 
 ## Modeling and Evaluation
 A Logistic Regression model is used to predict whether a video is a claim or an opinion using the metadata. The overall accuracy of 0.98 indicates the proportion of correctly classified instances out of the total dataset. The macro and weighted average metrics, both at 0.98, suggest a well-balanced performance across classes, considering their respective supports.
 
-[](./img/feature_importance.png)
+![](./img/feature_importance.png)
